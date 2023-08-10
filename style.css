@@ -67,7 +67,7 @@ body{
     font-weight: 100;
 }
 .date-time-weather .time #am-pm{
-    margin-left: 2rem;
+    margin-left: 0.2rem;
     font-size: 1.5rem;
 }
 
@@ -125,15 +125,17 @@ body{
     color: white;
     background-color: rgba(20, 28, 50, 0.672);
     display: flex;
+    margin: 4rem 0;
     align-items: center;
     justify-content: center;
-    bottom: 0;
+    /* bottom: 0; */
     position: fixed;
     width: 100%;
 
 }
 .future-days-item .future-container{
     display: flex;
+    max-width: 100px;
     justify-content: space-between;
 }
 .forecast-temp{
@@ -146,6 +148,7 @@ body{
 }
 .forecasts .future-days{
     display: flex;
+    flex-wrap: wrap;
 }
 .future-container .day{
     border-radius: 10px;
@@ -184,13 +187,13 @@ body{
     body{
         overflow-x: scroll;
     }
-    .forecasts{
+    /* .forecasts{
         padding: 0 20px;
         justify-content: start;
         overflow-y: scroll;
         align-items: none;
         position:relative;
-    }
+    } */
     .forecasts .future-days .future-days-item{
         margin: 0.5rem;
         padding: 0.5rem;
