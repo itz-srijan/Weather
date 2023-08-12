@@ -123,15 +123,26 @@ body{
 }
 .forecasts{
     color: white;
-    background-color: rgba(20, 28, 50, 0.672);
+    /* background-color: rgba(20, 28, 50, 0.672); */
     display: flex;
-    margin: 4rem 0 0 0;
+    margin: 3rem 0 0 0;
     align-items: center;
     justify-content: center;
     /* bottom: 0; */
     /* position: fixed; */
     width: 100%;
 
+}
+.forecasts .future-days .future-days-item{
+    margin: 0.5rem 1.3rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(1, 5, 21, 0.469);
+    border: 2px solid white;
+    border-radius: 15px;
 }
 .future-days-item .future-container{
     display: flex;
@@ -167,16 +178,7 @@ body{
 .weather-update span{
     margin-left: 5px;
 }
-.forecasts .future-days .future-days-item{
-    margin: 0.5rem 1.3rem;
-    padding: 0.5rem 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border: 2px solid white;
-    border-radius: 15px;
-}
+
 
 .forecasts .weather-update{
     font-size: 14px;
@@ -187,7 +189,7 @@ body{
     body{
         overflow-x: scroll;
     } 
-      .container-info{
+    .container-info{
         justify-content: center;
     }
     .location{
@@ -197,6 +199,3 @@ body{
         text-align: center;
     }
 }
-/* @media (max-width: 425px){
- 
-} */
