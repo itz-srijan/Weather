@@ -191,11 +191,15 @@ body{
     } 
     .container-info{
         justify-content: center;
+        text-align: center;
     }
     .location{
         display: flex;
         justify-content: center;
         flex-direction: column;
         text-align: center;
+    }
+    .forecasts{
+        align-items: center;
     }
 }
